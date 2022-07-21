@@ -121,7 +121,7 @@ img {
 }
 
 .header-item {
-  position: relative;
+  
 }
 
 .header-link,
@@ -141,6 +141,7 @@ img {
 }
 
 .header-link-current {
+  position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
