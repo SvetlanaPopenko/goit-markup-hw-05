@@ -16,6 +16,7 @@
   --black-socials-color: rgba(255, 255, 255, 0.1);
   --indent: 30px;
   --items: 4;
+  --animation-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -134,6 +135,8 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color var(--animation-hover);
 }
 
 .header-link {
@@ -236,14 +239,16 @@ background-color: var(--accent-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
+
+  transition: background-color var(--animation-hover);
+
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--btn-hover);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
+  }
+
 /* Features section */
 
 .visually-hidden {
@@ -381,6 +386,8 @@ background-color: var(--accent-color);
   color: var(--socials-color);
   background-color: var(--main-white-color);
   border-radius: 50%;
+
+  transition: color var(--animation-hover), background-color var(--animation-hover);
 }
 
 .socials-icon {
@@ -391,8 +398,7 @@ background-color: var(--accent-color);
 .socials-link:focus {
   color: var(--main-white-color);
   background-color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
+  }
 
 .team-wrapper {
   border-top: none;
@@ -421,6 +427,8 @@ background-color: var(--accent-color);
   border-radius: 4px;
 
   color: var(--socials-color);
+
+  transition: color var(--animation-hover), border var(--animation-hover), outline var(--animation-hover);
 }
 
 .clients-icon {
@@ -432,8 +440,7 @@ background-color: var(--accent-color);
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
   outline: none;
-}
-
+  }
 /* footer*/
 
 .logo-footer {
@@ -471,11 +478,15 @@ background-color: var(--accent-color);
 
 .footer-link {
   color: var(--main-white-color);
+
+  transition: color var(--animation-hover);
 }
 
 .footer-mail,
 .footer-phone {
   color: var(--transpered-color);
+
+  transition: color var(--animation-hover);
 }
 
 .footer-link:hover,
@@ -499,6 +510,8 @@ background-color: var(--accent-color);
 .black-link {
   background-color: var(--black-socials-color);
   color: var(--main-white-color);
+
+  transition: background-color var(--animation-hover);
 }
 
 .black-link:hover,
@@ -534,6 +547,9 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: none;
+
+  transition: color var(--animation-hover), background-color var(--animation-hover), box-shadow var(--animation-hover);
+
 }
 
 .main-button:hover,
@@ -542,8 +558,7 @@ background-color: var(--accent-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
+ }
 
 .main-items {
   --items: 3;
@@ -551,6 +566,8 @@ background-color: var(--accent-color);
 
 .main-content {
   display: inline-block;
+
+  transition: box-shadow var(--animation-hover);
 }
 
 .main-content:hover,
