@@ -391,7 +391,8 @@ img {
   background-color: var(--main-white-color);
   border-radius: 50%;
 
-  transition: color var(--animation-hover), background-color var(--animation-hover);
+  transition: color var(--animation-hover),
+    background-color var(--animation-hover);
 }
 
 .socials-icon {
@@ -589,7 +590,7 @@ img {
 }
 
 .main-content:hover .overlay {
-transform: translateY(0);
+  transform: translateY(0);
 }
 
 .overlay {
@@ -700,4 +701,3 @@ transform: translateY(0);
     0px 2px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
-
