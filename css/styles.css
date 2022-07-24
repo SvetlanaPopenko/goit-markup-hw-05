@@ -588,7 +588,7 @@ img {
   overflow: hidden;
 }
 
-.main-tumb:hover .overlay {
+.main-content:hover .overlay {
 transform: translateY(0);
 }
 
