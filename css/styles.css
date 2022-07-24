@@ -680,7 +680,7 @@ transform: translateY(0);
 
 .backdrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.4) rotate(1turn);
+  transform: translate(-50%, -50%) scale(0.5) rotate(1turn);
 }
 .modal-btn {
   position: absolute;
